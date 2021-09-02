@@ -1,0 +1,8 @@
+# obj folder
+
+[Oo]bj/
+[Bb]in/
+
+*.db
+
+.vscode
