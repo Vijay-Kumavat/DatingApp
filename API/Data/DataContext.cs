@@ -11,5 +11,5 @@ namespace API.Data
     public DbSet<TbAddUser> AddUsers {get; set;}
     
     }
-
+    // dotnet ef database  update -c DataContext 
 }
