@@ -3,6 +3,8 @@ using System.Linq;
 using API.Data;
 using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
@@ -17,16 +19,16 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<TbAddUser>> GetUsers()
+        public async Task<ActionResult<IEnumerable<TbAddUser>>> GetUsers()
         {
-            return _context.AddUsers.ToList();
+            return await _context.AddUsers.ToListAsync();
         }
 
 
         [HttpGet("{id}")]
-        public ActionResult<TbAddUser> GetUsers(int id)
+        public async Task<ActionResult<TbAddUser>> GetUsers(int id)
         {
-            return _context.AddUsers.Find(id);
+            return await _context.AddUsers.FindAsync(id);
         }
     }
 }
