@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj": {}
+    "c:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj": {
+    "c:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\vijay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vijay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,6 +56,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.13.1, )"
             }
           },
           "imports": [
