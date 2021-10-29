@@ -5,6 +5,7 @@ using API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 { 
@@ -17,6 +18,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<TbAddUser>>> GetUsers()
         {
             return await _context.AddUsers.ToListAsync();
@@ -24,6 +26,7 @@ namespace API.Controllers
 
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<TbAddUser>> GetUsers(int id)
         {
             return await _context.AddUsers.FindAsync(id);
