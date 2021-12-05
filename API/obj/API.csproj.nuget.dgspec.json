@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj": {}
+    "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj": {
+    "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\vijay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\DatingApp\\API\\obj\\",
+        "projectPath": "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj",
+        "packagesPath": "/home/vijay/.nuget/packages/",
+        "outputPath": "/home/vijay/All.Code/Angular/DatingApp/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vijay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/vijay/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +51,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -93,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
