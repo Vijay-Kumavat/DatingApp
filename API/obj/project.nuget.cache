@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yke4iLncBpbOdJ/hFo0at5gRW0i23Zio+thcVfoaa9HE+aFRqyJaD91R6rQdkgfufBykEow/UR2FiYk4OhIPUw==",
+  "dgSpecHash": "3YAEWyHR2QpVEXdgrD4gaKteWOOQXHjwMNZdaDkMuFlZYAYebwZM0UE771wJP4KGVcM7EnxrZJktBNVt8B13xg==",
   "success": true,
   "projectFilePath": "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,7 @@
     "/home/vijay/.nuget/packages/microsoft.entityframeworkcore/5.0.11/microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
     "/home/vijay/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.11/microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
     "/home/vijay/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.11/microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",
-    "/home/vijay/.nuget/packages/microsoft.entityframeworkcore.design/5.0.10/microsoft.entityframeworkcore.design.5.0.10.nupkg.sha512",
+    "/home/vijay/.nuget/packages/microsoft.entityframeworkcore.design/5.0.11/microsoft.entityframeworkcore.design.5.0.11.nupkg.sha512",
     "/home/vijay/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.11/microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
     "/home/vijay/.nuget/packages/microsoft.entityframeworkcore.sqlite/5.0.10/microsoft.entityframeworkcore.sqlite.5.0.10.nupkg.sha512",
     "/home/vijay/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/5.0.10/microsoft.entityframeworkcore.sqlite.core.5.0.10.nupkg.sha512",
