@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+	<TargetLatestRuntimePatch>true</TargetLatestRuntimePatch> 
     <ApplicationIcon />
     <OutputType>WinExe</OutputType>
     <StartupObject />
@@ -9,16 +10,23 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.11" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.11">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.10" />
+    <PackageReference Include="MySqlConnector" Version="2.1.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.11" />
     <PackageReference Include="Swashbuckle" Version="5.6.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20211012174731_InitalCreate.Designer.cs" />
+    <Compile Remove="Migrations\20211018174527_UserPasswordAdded.cs" />
+    <Compile Remove="Migrations\20211018174527_UserPasswordAdded.Designer.cs" />
   </ItemGroup>
 
 </Project>
