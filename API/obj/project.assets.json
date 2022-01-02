@@ -6255,9 +6255,15 @@
       "packagesPath": "/home/vijay/.nuget/packages/",
       "outputPath": "/home/vijay/All.Code/Angular/DatingApp/API/obj/",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/vijay/.nuget/NuGet/NuGet.Config"
+      ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
