@@ -1,13 +1,8 @@
 using System.Collections.Generic;
-using System.Linq;
-using API.Data;
-using API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using API.DTOs;
 using API.Interfaces;
-using AutoMapper;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
@@ -16,12 +11,10 @@ namespace API.Controllers
     public class UsersController : BaseApiController
     {
         private readonly IUserRepository _userRepository;
-        private readonly IMapper _mapper;
 
-        public UsersController(IUserRepository userRepository, IMapper mapper)
+        public UsersController(IUserRepository userRepository)
         {
             _userRepository = userRepository;
-            _mapper = mapper;
         }
 
         [HttpGet]
