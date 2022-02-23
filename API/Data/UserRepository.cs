@@ -53,5 +53,10 @@ namespace API.Data
                 .ProjectTo<MemberDto>(_mapper.ConfigurationProvider)
                 .SingleOrDefaultAsync();
         }
+
+        public async Task<TbAddUser> GetUserByUserNameAsync(string username)
+        {
+            return await _context.AddUsers.FirstOrDefaultAsync(f => f.UserName == username);
+        }
     }
 }
