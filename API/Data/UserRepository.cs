@@ -56,7 +56,7 @@ namespace API.Data
 
         public async Task<TbAddUser> GetUserByUserNameAsync(string username)
         {
-            return await _context.AddUsers.FirstOrDefaultAsync(f => f.UserName == username);
+            return await _context.AddUsers.Include(i => i.Photos).FirstOrDefaultAsync(f => f.UserName == username);
         }
     }
 }
