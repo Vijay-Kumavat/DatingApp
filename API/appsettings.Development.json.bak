@@ -9,5 +9,10 @@
   "ConnectionStrings": {
     "DefaultConnection": "Data source=DESKTOP-8EBORQ3\\MSSQLSERVER01;Database=TestDB;User ID=Kvm3coder;Password=Kvm3coder;trusted_connection=False;connection timeout=30"
   },
-  "TokenKey" : "super secure secret unguessable key"
+  "TokenKey": "super secure secret unguessable key",
+  "CloudinarySettings": {
+    "CloudName": "kvm3coder",
+    "Apikey": "313469484288882",
+    "ApiSecret": "u0yZTa-qDatavV2t4GKPuuZiVG8"
+  }
 }
