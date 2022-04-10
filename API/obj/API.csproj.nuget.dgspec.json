@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj": {}
+    "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\API\\API.csproj": {}
   },
   "projects": {
-    "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj": {
+    "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj",
+        "projectUniqueName": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/home/vijay/All.Code/Angular/DatingApp/API/API.csproj",
-        "packagesPath": "/home/vijay/.nuget/packages/",
-        "outputPath": "/home/vijay/All.Code/Angular/DatingApp/API/obj/",
+        "projectPath": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\vijay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vijay\\OneDrive\\Desktop\\All.Code\\Angular\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vijay/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vijay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,35 +44,33 @@
               "target": "Package",
               "version": "[8.1.1, )"
             },
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.1, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.1, )"
             },
             "Swashbuckle": {
               "target": "Package",
@@ -107,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
